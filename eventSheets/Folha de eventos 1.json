@@ -1,0 +1,28 @@
+{
+	"name": "Folha de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 183848295959650
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Mascara",
+					"sid": 779004858817976,
+					"parameters": {
+						"object": "Sombra",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 494511843648159
+		}
+	],
+	"sid": 338650960743853
+}
